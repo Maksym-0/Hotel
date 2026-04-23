@@ -1,0 +1,112 @@
+/* Зовнішні стилі*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0f8ff;
+    line-height: 1.5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #2c3e50;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-bar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#highlight-text {
+    color: #d35400 !important;
+    font-weight: bold;
+    text-align: justify;
+}
+
+/* Стилі для списків*/
+
+ul.premium-list {
+    list-style-type: square;
+    background-color: #e8f8f5;
+    padding: 15px 15px 15px 40px;
+    border: 2px dashed #1abc9c;
+    margin: 10px 20px;
+}
+
+ol.booking-list {
+    list-style-type: upper-roman;
+    background-color: #fef9e7;
+    padding: 15px 15px 15px 40px;
+    border-left: 5px solid #f1c40f;
+    margin: 10px 20px;
+}
+
+dl.rooms-list {
+    background-color: #ffffff;
+    border: 1px solid #bdc3c7;
+    padding: 15px;
+    margin: 10px 20px;
+}
+dl.rooms-list dt {
+    color: #2980b9;
+    font-size: 18px;
+    margin-top: 10px;
+}
+dl.rooms-list dd {
+    margin-left: 20px;
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+/* Стилі для таблиць*/
+
+table.custom-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border: 3px double #2c3e50;
+}
+
+table.custom-table th, table.custom-table td {
+    border: 1px solid #34495e;
+    padding: 10px;
+    text-align: center;
+}
+
+table.custom-table th {
+    background-color: #dddddd;
+}
+
+table.custom-table caption {
+    font-weight: bold;
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+
+table.photo-table {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}

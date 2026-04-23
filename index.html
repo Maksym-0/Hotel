@@ -2,42 +2,52 @@
 
 <html lang="ua">
 <head>
+    <meta charset="utf-8">
     <meta name="author" content="Лосєв Максим">
     <title>Головна сторінка</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <style>
+        a {
+            color: #8e44ad;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
-<body bgcolor="#f0f8ff" link="#0000FF" vlink="#800080" alink="#FF0000">
+<body>
 
-    <p align="center">
-        <b>
-            <a href="index.html">Головна</a> | 
-            <a href="catalog.html">Каталог</a> | 
-            <a href="bessarabia.html">Бессарабія</a> | 
-            <a href="izmail.html">Ізмаїл</a>
-        </b>
+    <p class="menu-bar">
+        <a href="index.html">Головна</a> | 
+        <a href="catalog.html">Каталог</a> | 
+        <a href="bessarabia.html">Бессарабія</a> | 
+        <a href="izmail.html">Ізмаїл</a>
     </p>
-    <hr size="2" color="black">
-
-    <h1 align="center">Мережа готелів</h1>
     
-    <p align="justify">
-        <i>Вітаємо!</i> Ми пропонуємо найкращі умови для відпочинку. У нас є як <b>преміум-готелі</b>, так і <b>бюджетні хостели</b>.
+    <hr>
+
+    <h1>Мережа готелів</h1>
+    
+    <p id="highlight-text">
+        Вітаємо! Ми пропонуємо найкращі умови для відпочинку. У нас є як преміум-готелі, так і бюджетні хостели.
     </p>
 
-    <p>
+    <p style="border: 1px solid blue; padding: 10px; background-color: #eaf2f8;">
         Більше про регіон (зовнішнє посилання): 
         <a href="https://uk.wikipedia.org/wiki/Бессарабія" target="_blank">Вікіпедія</a>.
     </p>
 
-    <p>
+    <p style="text-align: center;">
         Доступні пропозиції: 
         <a href="catalog.html#budget">Порівняти наявні готелі в каталозі</a>.
     </p>
 
-    <h2 align="center">Перегляд каталогу в плаваючому фреймі</h2>
-    <p align="center">
-        <iframe src="catalog.html" width="800" height="300" frameborder="1"></iframe>
-    </p>
+    <h2>Перегляд каталогу в плаваючому фреймі</h2>
+    
+    <div style="text-align: center;">
+        <iframe src="catalog.html" width="800" height="300" style="border: 2px solid black;"></iframe>
+    </div>
 
 </body>
 </html>
