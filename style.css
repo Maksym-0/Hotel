@@ -110,3 +110,23 @@ table.photo-table {
     padding: 10px;
     text-align: center;
 }
+
+/* Селектори */
+
+table.custom-table a {
+    color: #c0392b;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+ul.premium-list > li {
+    color: #27ae60;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+h1 + p {
+    font-size: 18px;
+    border-left: 4px solid #2980b9;
+    padding-left: 10px;
+}
