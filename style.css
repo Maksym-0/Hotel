@@ -58,6 +58,18 @@ ol.booking-list {
     margin: 10px 20px;
 }
 
+ol.booking-list ul {
+    list-style-type: circle;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 25px;
+}
+
+ol.booking-list ul li {
+    color: #34495e;
+    font-size: 15px;
+}
+
 dl.rooms-list {
     background-color: #ffffff;
     border: 1px solid #bdc3c7;
@@ -99,14 +111,6 @@ table.custom-table caption {
     font-weight: bold;
     font-size: 120%;
     margin-bottom: 10px;
-}
-
-table.photo-table {
-    width: 80%;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 10px;
-    text-align: center;
 }
 
 /* Контекстний cелектор */
