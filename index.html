@@ -68,9 +68,31 @@
         <a href="catalog.html#budget">Порівняти наявні готелі в каталозі</a>.
     </p>
 
+    <hr>
+    
+    <h2>Інтерактивні сервіси</h2>
+    
+    <!-- Внутрішній скрипт та document.write -->
+    <script>
+        document.write("<p style='text-align:center; color:#2980b9; font-weight:bold;'>Система онлайн-перевірки готелів працює</p>");
+    </script>
+
+    <!-- Панель управління з кнопками -->
+    <div style="text-align: center; margin-bottom: 50px;">
+        <button onclick="checkBookingDiscount()" style="padding: 10px; margin: 5px; cursor: pointer;">🧮 Перевірити знижку</button>
+        <button onclick="compareGuestNames()" style="padding: 10px; margin: 5px; cursor: pointer;">📋 Оновити реєстр гостей</button>
+        <button onclick="toggleNightMode()" style="padding: 10px; margin: 5px; cursor: pointer;">🌙 Нічний режим (30 сек)</button>
+        <button onclick="goToCatalog()" style="padding: 10px; margin: 5px; cursor: pointer;">🏨 Перейти до Каталогу</button>
+        <br>
+        <button onclick="fetchHotDeals()" style="padding: 10px; margin: 5px; background-color: #e74c3c; color: white; border: none; cursor: pointer; font-weight: bold;">⚡ Отримати гарячі пропозиції</button>
+        <button onclick="showDeveloper('Лосєв', 'Максим')" style="padding: 10px; margin: 5px; background-color: #2c3e50; color: white; border: none; cursor: pointer;">👨‍💻 Техпідтримка</button>
+    </div>
+
     <div class="fixed-banner">
         Знижка 15% на раннє бронювання до кінця місяця!
     </div>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
